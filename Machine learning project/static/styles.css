@@ -1,0 +1,244 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+header {
+    background-color: #6c7ae0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    background-image: url("/static/cms-preparedness-after-the-deadline.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+}
+
+footer {
+    background-color: #6c7ae0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    margin: 0;
+}
+
+#predictors ul {
+    list-style-type: none;
+    padding: 10;
+}
+
+#predictors ul li{
+    padding: 10;
+    height: 30px;
+}
+
+#predictors ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    background-color: #e6e8f1;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#predictors ul li a:hover {
+    background-color: #d4d6e6;
+    text-decoration: none;
+}
+
+/*heart disease page */
+
+#heart {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+
+}
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+
+#heart h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#heart label {
+    display: block;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+#heart select {
+    width: 103.5%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #555;
+    appearance: none;
+    background-color: #ecf0f1;
+}
+
+#heart legend{
+    text-align: center;
+    border-bottom: none;
+    font-weight: bold;
+    color:#333;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#heart  input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 20px;
+}
+
+#heart   button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#heart button[type="submit"]:hover {
+    background-color: #b73232;
+}
+
+/*disease page...*/
+
+#disease body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+#disease .popup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#disease .popup {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: 500px;
+    width: 650px;
+}
+
+#disease .prevention-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#disease .prevention-list {
+    padding: 0;
+}
+
+#disease .prevention-list-item {
+    margin-bottom: 10px;
+}
+
+#disease .normal {
+    color: #2ecc71;
+}
+
+#disease .emoji {
+    font-size: 36px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#disease .close-button {
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+#disease .close-button:hover {
+    background-color: #2980b9;
+}
+
+#disease .remedies-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#disease .remedies-list {
+    padding: 0;
+}
+
+#disease .remedies-list-item {
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #e74c3c;
+}
+
+.emoji {
+    font-size: 36px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.home-button {
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #2980b9;
+}

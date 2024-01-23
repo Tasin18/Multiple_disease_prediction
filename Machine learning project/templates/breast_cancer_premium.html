@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breast Cancer</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <section id="heart">
+        <div class="form-container">
+                <form method="POST" action="cancer_premium_predict">
+                    <legend>Breast Cancer</legend>
+                    <label for="concave_point">Concave points worst(highest concave portions of the contour)</label>
+                    <input type="number" id="concave_point" name="concave_point" min='0' step='0.00001' required>
+
+                    <label for='perimeter'>Perimeter</label>
+                    <input type='number' id='perimeter' name='perimeter' min='0' step='0.00001' required>
+
+                    <label for="con_mean">concave points_mean</label>
+                    <input type="number" id="con_mean" name="con_mean" min="0" step='0.00001' required>
+
+                    <label for="radius_worst">Highest point of radius</label>
+                    <input type="number" id="radius_worst" name="radius_worst" min="0" step='0.00001' required>
+
+                    <label for="perimeter_mean">Perimeter mean</label>
+                    <input type="number" id="perimeter_mean" name="perimeter_mean" min="0" step='0.00001' required>
+
+                    <label for="area_worst">Highest area</label>
+                    <input type="number" id="area_worst" name="area_worst" min="0" step='0.00001' required>
+
+                    <label for="radius_mean">Radius mean</label>
+                    <input type="number" id="radius_mean" name="radius_mean" min="0" step='0.00001' required>
+
+                    <label for="area_mean">Area mean</label>
+                    <input type="number" id="area_mean" name="area_mean" min="0" step='0.00001' required>
+                    
+                    <label for="concavity_mean">Concavity mean</label>
+                    <input type="number" id="concavity_mean" name="concavity_mean" step='0.00001' required>
+                    
+                    <label for="concavity_worst">Concavity worst</label>
+                    <input type="number" id="concavity_worst" name="concavity_worst" min="0" step='0.00001' required>
+
+                    <label for="compactness_mean">Compactness mean</label>
+                    <input type="number" id="compactness_mean" name="compactness_mean" min="0" step='0.00001' required>
+
+                    <label for="compactness_worst">Compactness worst</label>
+                    <input type="number" id="compactness_worst" name="compactness_worst" min="0" step='0.00001' required>
+
+                    <label for="radius_se">Radius Standard Error</label>
+                    <input type="number" id="radius_se" name="radius_se" min="0" step='0.00001' required>
+
+                    <label for="perimeter_se">Perimeter Standard Error</label>
+                    <input type="number" id="perimeter_se" name="perimeter_se" min="0" step='0.00001' required>
+
+                    <label for="area_se">Area Standard Error</label>
+                    <input type="number" id="area_se" name="area_se" min="0" step='0.00001' required>
+
+                    <label for="texture_worst">Texture worst</label>
+                    <input type="number" id="texture_worst" name="texture_worst" min="0" step='0.00001' required>
+                    
+                    <button type="submit">Predict</button>
+                </form>
+        </div>
+    </section>
